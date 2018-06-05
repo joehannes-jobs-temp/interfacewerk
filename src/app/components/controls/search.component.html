@@ -1,0 +1,10 @@
+<div class="ui-inputgroup" style="display: inline-block;">
+    <span class="ui-inputgroup-addon"><i class="fa fa-search"></i></span>
+    <input
+      type="text"
+      pInputText
+      placeholder="Search"
+      [(ngModel)]="searchVal"
+      (keyup.enter)="onSubmit()"
+    >
+</div>
